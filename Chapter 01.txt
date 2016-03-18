@@ -1,2 +1,222 @@
 ; This is a comment
 ; This will contain all my work from Chapter One of Simply Scheme 
+
+
+Examples:
+
+; (functions)
+;(+ (3 5)
+;Welcome to the FUNCTIONS program.
+;Function: (+(3 5))
+;You typed more than one thing!  Try again.
+;Function: +
+;Argument: 5
+;Argument: 3
+
+;The result is: 8
+
+;Function: sqrt
+;Argument: 144
+
+;The result is: 12
+
+;Function: remainder
+;Argument: 1
+;Argument: 12
+
+;The result is: 1
+
+;Function: remainder
+;Argument: 12
+;Argument: -5
+
+;The result is: 2
+
+;Function: butfirst
+;Argument: a
+
+;The result is: 
+
+;Function: butfirst
+;Argument: count
+
+;The result is: ount
+
+;Function: word
+;Argument: 3.14
+;Argument: 1592654
+
+;The result is: 3.141592654
+
+;Function: +
+;Argument: 6
+;Argument: 7
+;The result is: 13
+
+;Function: expt 
+;Argument: -3
+;Argument: -3
+
+;The result is: -1/27
+
+;Function: remainder 
+;Argument: 5
+;Argument: 0
+;Argument(s) not in domain.
+;Function: sentence
+;Argument: (
+;when i got)Bad parentheses
+;Argument: home
+;Bad parentheses
+;Argument: 
+;Please type an argument!
+;Argument: 
+;Please type an argument!
+;Argument: 
+;Please type an argument!
+;Argument: 2
+;Argument: 12
+
+;The result is: (2 12)
+
+;Function: sentence
+;Argument: when i get
+;You typed more than one argument!  Try again.
+;Argument: (when i get)
+;Argument: home
+
+;The result is: (when i get home)
+
+;Function: butfirst
+;Argument: (yer blues)
+
+;The result is: (blues)
+
+;Function: butlast
+;Argument: ()
+;Argument(s) not in domain.
+;Function: number-of-arguments
+;Argument: equal?
+
+;The result is: 2
+
+;Function: every
+;Argument: first
+;Argument: (the long and winding road)
+
+;The result is: (t l a w r)
+
+;Function: keep
+;Argument: vowel
+;Argument: canstantinople
+;Argument(s) not in domain.
+;Function: keeo
+;Sorry, that's not a function.
+;Function: keep
+;Argument: vowel?
+;Argument: constantinople
+
+;The result is: oaioe
+
+Exercises 
+
+1.Function: word
+Argument: now
+Argument: here
+
+The result is: nowhere
+
+2. Function: sentence
+Argument: now
+Argument: here
+
+The result is: (now here)
+
+3. Function: first
+Argument: blackbird
+
+The result is: b
+
+4. Function: first
+Argument: (blackbird)
+
+The result is: blackbird
+
+5. Function: 3
+Sorry, that's not a function.
+Function: +
+Argument: 3
+Argument: 4
+The result is: 7
+
+6. Function: every
+Argument: first
+Argument: (thank you girl)
+
+The result is: (t y g)
+
+Function: every
+Argument: burfirst
+Argument: er
+Argument(s) not in domain.
+Function: every
+Argument: butfirst
+Argument: (thank you girl)
+
+The result is: (hank ou irl)
+
+7.Function: member?
+Argument: e
+Argument: aardvark
+
+The result is: #F
+
+8.Function: member?
+Argument: the
+Argument: e
+Argument(s) not in domain.
+Function: member?
+Argument: the
+Argument: there
+Argument(s) not in domain.
+Function: member?
+Argument: the
+Argument: therefore
+Argument(s) not in domain.
+Function: member?
+Argument: the
+Argument: (there)
+
+9. Function: keep
+Argument: vowel?
+Argument: (i will)
+
+The result is: (i)
+
+Function: keep
+Argument: vowel?
+Argument: eieio
+
+The result is: eieio
+
+10. Function: last 
+Argument: ()
+Argument(s) not in domain.
+Function: butlast
+Argument: every
+
+The result is: ever
+
+11. Function: every
+Argument: last
+Argument: (honey pie)
+
+The result is: (y e)
+
+12. Function: keep
+Argument: vowel?
+Argument: taxman
+
+The result is: aa
+
+

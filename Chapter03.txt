@@ -1,0 +1,96 @@
+Lesson
+
+
+> (define (square x)
+    (* x x))
+> (square 7)
+49
+> (+ 10 (square 2))
+14
+> (square (square 3))
+81
+> (define (f x)
+    (+ 3 (+ x 4)))
+> (define (g x)
+    (* (+ x 4)))
+> (square (+ 5 9)
+          
+         )
+196
+> (define ( f a b)
+    (+ (* 3 a) b))
+> ( f 5 8)
+23
+> (f 8 5 )
+29
+> (f 2 1)
+7
+> (f 5 5)
+20
+> (define (average a b)
+    (/ (+ a b) 2)))
+. read: unexpected `)'
+> (define (average a b)
+)    
+. define: bad syntax (no expressions for procedure body) in: (define (average a b))
+> (define (average a b)
+    (/ (+ a b) 2 ))
+
+
+Exercise.
+
+
+
+1.(define hypotenenuse a b)
+. define: bad syntax (multiple expressions after identifier) in: (define hypotenenuse a b)
+ (define hypotenuse a b)
+. define: bad syntax (multiple expressions after identifier) in: (define hypotenuse a b)
+ (define (hypotenuse a b)
+     (sqrt (+ (square a) (square b))))
+ (hypotenuse 5 12)
+  13
+2.  (sqrt (+ (square 5) (square 12)))
+  13 (square (7 8))
+. . application: not a procedure;
+ expected a procedure that can be applied to arguments
+  given: 7
+  arguments...:
+   8
+ 3. (define (square x)
+    (* x x)
+    
+    )
+4. (square ( 7 7))
+. . application: not a procedure;
+ expected a procedure that can be applied to arguments
+  given: 7
+  arguments...:
+   7
+ 5.(square 7)
+49
+ (square 7 7)
+. . square: arity mismatch;
+ the expected number of arguments does not match the given number
+  expected: 1
+  given: 2
+  arguments...:
+   7
+   7
+6. (square 6)
+36
+ (average (+10 8) (* 3 5))
+. . application: not a procedure;
+ expected a procedure that can be applied to arguments
+  given: 10
+  arguments...:
+   8
+7. (average (+ 10 8) (* 3 5)))
+   16 1/2
+   . read: unexpected `)'
+8. (average (average 2 3) (average 4 5)
+           )
+   3 1/2
+9. (sqrt (average 143 145))
+   12
+10. (average 27 4)
+   15 1/2

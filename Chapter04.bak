@@ -1,7 +1,0 @@
-#lang racket
-(require (planet dyoo/simply-scheme:2:2))
-
-
-(define (second thing)
-(first (butfirst thing)))
-

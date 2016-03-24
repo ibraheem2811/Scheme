@@ -2,6 +2,10 @@
 Thumbs.db
 ehthumbs.db
 
+#drracket stupid files (backup/rkt)
+*.rkt
+*.bak
+
 # Folder config file
 Desktop.ini
 
